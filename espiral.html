@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Proyecto ingeniería de software</title>
+    <link rel="shortcut icon" href="./images/tempIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/estilosEspiral.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Modelo de espiral">
+    <meta name="description" content="Aprende sobre el modelo de espiral">
+</head>
+
+<body>
+
+    <header class="heroCascada">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Proyecto ingeniería de software.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="./index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./cascada.html" class="nav__links">Cascada</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./espiral.html" class="nav__links">Espiral</a>
+                </li>
+                <li class="nav__items">
+                    <a href="./scrum.html" class="nav__links">SCRUM</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Modelo de espiral</h1>
+            <p class="hero__paragraph">Aprende sobre el modelo de cascada, 
+                sus cualidades, ventajas y desventajas</p>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Acerca de</h2>
+            <p class="about__paragraph">El modelo de desarrollo en Espiral es una combinación 
+                entre el modelo waterfall y un modelo por iteraciones.</p>
+            <p class="about__paragraph">El proceso pasa por distintas etapas, desde la de conceptualización, 
+                siguiendo el desarrollo, luego una fase de mejoras, para finalizar con el mantenimiento.</p>
+            <p class="about__paragraph">Dentro de cada etapa, tendremos una serie de fases que transcurren desde la planificación, 
+                pasando por el análisis de riesgos, el desarrollo y finalizando en la evaluación de lo realizado. Se incorpora también 
+                una fase de enlace entre etapas, para facilitar la transición entre las mismas.</p>
+            <p class="about__paragraph">En definitiva, el equipo de desarrollo en este modelo de desarrollo en espiral 
+                comienza con un pequeño conjunto de requisitos y pasa por cada fase de desarrollo para ese conjunto de requisitos. 
+                El equipo de desarrollo agrega la funcionalidad para el requerimiento adicional en espirales cada vez mayores, 
+                hasta que la aplicación está lista para la fase de producción.</p>
+        </section>
+
+        <section class="container video">
+               <iframe class="video__main" width="943" height="540" src="https://www.youtube.com/embed/Wsvr-aB0tPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="container aboutFondo">
+            <h2 class="subtitle">¿Dónde usarlo?</h2>
+            <p class="aboutFondo__paragraph">Como se mencionó anteriormente, el modelo en espiral se usa mejor en proyectos grandes, 
+                costosos y complicados. Otros usos incluyen:</p>
+            <ul>
+                <li class="aboutFondo__paragraph" type="disc">proyectos en los que son necesarios lanzamientos frecuentes.</li>
+                <li class="aboutFondo__paragraph" type="disc">proyectos en los que pueden ser necesarios cambios en cualquier momento.</li>
+                <li class="aboutFondo__paragraph" type="disc">proyectos a largo plazo que no son factibles debido a prioridades económicas alteradas.</li>
+                <li class="aboutFondo__paragraph" type="disc">proyectos de riesgo medio a alto.</li>
+                <li class="aboutFondo__paragraph" type="disc">proyectos en los que el análisis de costos y riesgos es importante.</li>
+                <li class="aboutFondo__paragraph" type="disc">proyectos que se beneficiarían de la creación de un prototipo.</li>
+                <li class="aboutFondo__paragraph" type="disc">proyectos con requisitos poco claros o complejos.</li>
+            </ul>
+        </section>
+
+        <section class="container diagramaImagen">
+            <h2 class="subtitle">Diagrama del modelo en espiral</h2>
+            <img class="diagramaImagen__main" src="./images/diagramaEspiral.png" class="about__icon" alt="">
+        </section>
+        
+        <section class="container about">
+            <h2 class="subtitle">Ahora paso a paso</h2>
+            <ol>
+                <li class="subtitle2" >Determinar objetivos </li>
+                        <li class="about__paragraph" type="none"> Definición de objetivos y alternativas y descripción de las condiciones
+                            generales. Un ciclo típico del modelo espiral comienza con la valoración de qué
+                            objetivos deben vincularse a cada uno de los pasos del desarrollo de software. Se
+                            puede tratar, por ejemplo, de la mejora del rendimiento o de la ampliación de la
+                            funcionalidad. Al mismo tiempo, es el momento de definir las alternativas para la
+                            implementación y determinar las condiciones generales como los costes o la
+                            inversión de tiempo. 
+                        </li>
+                
+                <li class="subtitle2">Análisis de riesgo </li>
+                        <li class="about__paragraph" type="none">Es hora de evaluar las
+                            alternativas, momento en el que los objetivos y las condiciones generales serán
+                            valores de referencia decisivos. En esta fase del ciclo del desarrollo en espiral,
+                            deberán identificarse los ámbitos de inseguridad que presenten un riesgo
+                            significativo para el progreso del proyecto de software. Después de seguir la
+                            elaboración de las estrategias que presentan menos riesgo y que sean más
+                            rentables, por lo cual se podrán utilizar métodos como el modelo de prototipos,
+                            simulaciones, estudios comparativos, modelos de análisis y encuestas a usuarios.
+                        </li>
+
+                <li class="subtitle2">Desarrollar y probar </li>
+                        <li class="about__paragraph" type="none">Al finalizar el análisis de riesgos, se prosigue con el desarrollo real del
+                            software, así que esta fase siempre está caracterizada por los riesgos relativos
+                            restantes. Si el proceso de desarrollo está dominado por riesgos de rendimiento o
+                            de interfaz de usuario, o riesgos del control de la interfaz, se ofrece primero una
+                            estrategia de desarrollo evolutiva, donde se especifica el proyecto con más precisión
+                            y se optimizan los prototipos. El código real se escribe y se prueba varias veces
+                            hasta alcanzar el resultado deseado, que puede servir entonces como base de bajo
+                            riesgo para otros pasos de desarrollo.
+                        </li>
+
+                <li class="subtitle2">Planificación </li>
+                        <li class="about__paragraph" type="none">planificación del siguiente ciclo. Una vez concluido ya se empieza a
+                            planificar el siguiente ciclo. Por una parte, en forma de avance normal del proyecto,
+                            si los objetivos de un ciclo se han podido cumplir y se debe definir el siguiente
+                            objetivo. Por otra parte, también se puede tratar de encontrar soluciones, en caso de
+                            que la etapa de desarrollo anterior haya fracasado. En este caso, la estrategia
+                            seguida hasta entonces se puede sustituir, por ejemplo, con las alternativas
+                            definidas anteriormente o con una nueva alternativa. De esta forma, se puede
+                            intentar conseguir de nuevo el objetivo del mercado.
+                            
+                        </li>
+                
+            </ol>
+        </section>
+        
+        <section class="container column">
+            <div class="contenedor">
+                <div>
+                    <p class="subtitle3">Ventajas</p>
+                    <ol>
+                        <li class="column__paragraph" type="disc">Modelo flexible y genérico</li>
+                        <li class="column__paragraph" type="disc">Posible integración temprana de promotores y usuarios</li>
+                        <li class="column__paragraph" type="disc">Comprobación periódicas y enfocadas al riego</li>
+                        <li class="column__paragraph" type="disc">Conciliación perfecta entre exigencias técnicas y diseño</li>
+                        <li class="column__paragraph" type="disc">Máximo control sobre costes, recursos y la calidad del proyecto de software</li>
+                        <li class="column__paragraph" type="disc">Apropiado para entornos técnicos novedosos</li>
+                    </ol>
+                </div>
+                <div>
+                    <p class="subtitle3">Desventajas</p>
+                    <ol>
+                        <li class="column__paragraph" type="disc">Modelo flexible y genérico</li>
+                        <li class="column__paragraph" type="disc">Posible integración temprana de promotores y usuarios</li>
+                        <li class="column__paragraph" type="disc">Comprobación periódicas y enfocadas al riego</li>
+                        <li class="column__paragraph" type="disc">Conciliación perfecta entre exigencias técnicas y diseño</li>
+                        <li class="column__paragraph" type="disc">Máximo control sobre costes, recursos y la calidad del proyecto de software</li>
+                        <li class="column__paragraph" type="disc">Apropiado para entornos técnicos novedosos</li>
+                    </ol>
+                </div>
+              </div>
+
+        </section>
+        
+        <section class="container about">
+            <p class="about__paragraph" type="none"> El modelo en Espiral se encuentra dentro de las metodologías o modelos ágiles, 
+                con lo que es otra posible aproximación cuando estamos pensando agilizar nuestra organización o nuestros proyectos. 
+            </p>
+            <p class="about__paragraph" type="none">
+                Es un sistema que tiene muchos años funcionando de manera satisfactoria en la entrega de proyectos, 
+                por lo que es un candidato sólido que debe ser tenido en cuenta.
+            </p>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¡Continúa con SCRUM!</h2>
+                <p class="questions__copy">Aprende sobre el siguiente modelo</p>
+                <a href="./scrum.html" class="cta">Continuar</a>
+            </section>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Proyecto ingeniería de software</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="./index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./cascada.html" class="nav__links">Cascada</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./espiral.html" class="nav__links">Espiral</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./scrum.html" class="nav__links">SCRUM</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/maykknaa" method="POST">
+                <h2 class="footer__newsletter">Continúa aprendiendo</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="email">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            
+
+            <h3 class="footer__copyright">Derechos reservados &copy; HeHowOK! 2022</h3>
+        </section>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+</body>
+</html>
