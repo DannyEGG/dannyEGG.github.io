@@ -32,6 +32,7 @@ body {
     height: 100%;
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/scrumHeader.jpg');
     background-size: cover;
+    background-position: center;
     clip-path: polygon(100% 0, 100% 80%, 50% 70%, 0 80%, 0 0);
     z-index: -1;
 }
@@ -75,7 +76,7 @@ body {
 
 .nav__img {
     display: block;
-    width: 30px;
+    width: 60px;
 }
 
 
@@ -116,6 +117,167 @@ body {
     border-radius: 32px;
 }
 
+/* About */
+
+.about{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container{
+    padding-top: 0;
+}
+
+.subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+    
+}
+
+.about__paragraph{
+    line-height: 1.5;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.about__main{
+    padding-top: 40px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+/* video */
+
+.video{
+    padding-top: 0px;
+    align-content: center;  
+    padding-bottom: 80px;  
+}
+
+.video__main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+/* AboutFondo */
+
+.aboutFondo{
+    background-color: #e5e5f7;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+    
+}
+
+.subtitle2{
+    text-align: left;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.aboutFondo__paragraph{
+    line-height: 1.5;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+/* diagramaImagen */
+
+.diagramaImagen{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-content: center; 
+    text-align: center;   
+}
+
+.subtitle{
+    padding-top: 80px;
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.diagramaImagen__main{
+    padding-top: 0px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+/* Column */
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  
+.contenedor > div {
+    width: 50%;
+}
+
+.column{
+    background-color: #e5e5f7;
+    background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.subtitle3{
+    text-align: center;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.column__paragraph{
+    line-height: 1.5;
+    text-align: left;
+    padding-bottom: 10px;
+}
 
 /* Footer */
 
@@ -240,6 +402,33 @@ body {
         font-size: 2.5rem;
     }
 
+    .about__punto{
+        padding-left: 0;
+    }
+
+    .aboutFondo__punto{
+        padding-left: 0;
+    }
+
+    .aboutFondo__paragraph{
+        list-style: none;
+        text-align: left;
+    }
+
+    .contenedor > div {
+        width: auto;
+    }
+
+    .column__punto{
+        padding-left: 0;
+    }
+
+    .column__paragraph{
+        line-height: 1.5;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
     .footer__container{
         flex-wrap: wrap;
     }
@@ -279,6 +468,29 @@ body {
 
     .subtitle{
         font-size: 1.8rem;
+    }
+
+    .about__punto{
+        padding-left: 0;
+    }
+
+    .aboutFondo__punto{
+        padding-left: 0;
+    }
+
+    .aboutFondo__paragraph{
+        list-style: none;
+        text-align: left;
+    }
+
+    .column__punto{
+        padding-left: 0;
+    }
+
+    .column__paragraph{
+        line-height: 1.5;
+        text-align: left;
+        padding-bottom: 10px;
     }
 
     .footer__title{

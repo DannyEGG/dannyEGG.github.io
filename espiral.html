@@ -17,7 +17,7 @@
 
 <body>
 
-    <header class="heroCascada">
+    <header class="heroEspiral">
         <nav class="nav container">
             <div class="nav__logo">
                 <h2 class="nav__title">Proyecto ingeniería de software.</h2>
@@ -76,7 +76,7 @@
             <h2 class="subtitle">¿Dónde usarlo?</h2>
             <p class="aboutFondo__paragraph">Como se mencionó anteriormente, el modelo en espiral se usa mejor en proyectos grandes, 
                 costosos y complicados. Otros usos incluyen:</p>
-            <ul>
+            <ul class="aboutFondo__punto">
                 <li class="aboutFondo__paragraph" type="disc">proyectos en los que son necesarios lanzamientos frecuentes.</li>
                 <li class="aboutFondo__paragraph" type="disc">proyectos en los que pueden ser necesarios cambios en cualquier momento.</li>
                 <li class="aboutFondo__paragraph" type="disc">proyectos a largo plazo que no son factibles debido a prioridades económicas alteradas.</li>
@@ -94,19 +94,18 @@
         
         <section class="container about">
             <h2 class="subtitle">Ahora paso a paso</h2>
-            <ol>
-                <li class="subtitle2" >Determinar objetivos </li>
-                        <li class="about__paragraph" type="none"> Definición de objetivos y alternativas y descripción de las condiciones
+            <ol class="about__punto">
+                <li class="subtitle2" type="decimal" >Determinar objetivos </li>
+                        <p class="about__paragraph" type="none"> Definición de objetivos y alternativas y descripción de las condiciones
                             generales. Un ciclo típico del modelo espiral comienza con la valoración de qué
                             objetivos deben vincularse a cada uno de los pasos del desarrollo de software. Se
                             puede tratar, por ejemplo, de la mejora del rendimiento o de la ampliación de la
                             funcionalidad. Al mismo tiempo, es el momento de definir las alternativas para la
                             implementación y determinar las condiciones generales como los costes o la
                             inversión de tiempo. 
-                        </li>
-                
-                <li class="subtitle2">Análisis de riesgo </li>
-                        <li class="about__paragraph" type="none">Es hora de evaluar las
+                        </p>
+                <li class="subtitle2" start="2">Análisis de riesgo  </li>
+                        <p class="about__paragraph" type="none">Es hora de evaluar las
                             alternativas, momento en el que los objetivos y las condiciones generales serán
                             valores de referencia decisivos. En esta fase del ciclo del desarrollo en espiral,
                             deberán identificarse los ámbitos de inseguridad que presenten un riesgo
@@ -114,10 +113,9 @@
                             elaboración de las estrategias que presentan menos riesgo y que sean más
                             rentables, por lo cual se podrán utilizar métodos como el modelo de prototipos,
                             simulaciones, estudios comparativos, modelos de análisis y encuestas a usuarios.
-                        </li>
-
+                        </p>
                 <li class="subtitle2">Desarrollar y probar </li>
-                        <li class="about__paragraph" type="none">Al finalizar el análisis de riesgos, se prosigue con el desarrollo real del
+                        <p class="about__paragraph" type="none">Al finalizar el análisis de riesgos, se prosigue con el desarrollo real del
                             software, así que esta fase siempre está caracterizada por los riesgos relativos
                             restantes. Si el proceso de desarrollo está dominado por riesgos de rendimiento o
                             de interfaz de usuario, o riesgos del control de la interfaz, se ofrece primero una
@@ -125,45 +123,43 @@
                             y se optimizan los prototipos. El código real se escribe y se prueba varias veces
                             hasta alcanzar el resultado deseado, que puede servir entonces como base de bajo
                             riesgo para otros pasos de desarrollo.
-                        </li>
+                        </p>
 
                 <li class="subtitle2">Planificación </li>
-                        <li class="about__paragraph" type="none">planificación del siguiente ciclo. Una vez concluido ya se empieza a
+                        <p class="about__paragraph" type="none">planificación del siguiente ciclo. Una vez concluido ya se empieza a
                             planificar el siguiente ciclo. Por una parte, en forma de avance normal del proyecto,
                             si los objetivos de un ciclo se han podido cumplir y se debe definir el siguiente
                             objetivo. Por otra parte, también se puede tratar de encontrar soluciones, en caso de
                             que la etapa de desarrollo anterior haya fracasado. En este caso, la estrategia
                             seguida hasta entonces se puede sustituir, por ejemplo, con las alternativas
                             definidas anteriormente o con una nueva alternativa. De esta forma, se puede
-                            intentar conseguir de nuevo el objetivo del mercado.
-                            
-                        </li>
-                
-            </ol>
+                            intentar conseguir de nuevo el objetivo del mercado.   
+                        </p>
+            </ul>
         </section>
         
         <section class="container column">
             <div class="contenedor">
                 <div>
                     <p class="subtitle3">Ventajas</p>
-                    <ol>
-                        <li class="column__paragraph" type="disc">Modelo flexible y genérico</li>
-                        <li class="column__paragraph" type="disc">Posible integración temprana de promotores y usuarios</li>
-                        <li class="column__paragraph" type="disc">Comprobación periódicas y enfocadas al riego</li>
-                        <li class="column__paragraph" type="disc">Conciliación perfecta entre exigencias técnicas y diseño</li>
-                        <li class="column__paragraph" type="disc">Máximo control sobre costes, recursos y la calidad del proyecto de software</li>
-                        <li class="column__paragraph" type="disc">Apropiado para entornos técnicos novedosos</li>
+                    <ol class="column__punto">
+                        <li class="column__paragraph" type="disc">Modelo flexible y genérico.</li>
+                        <li class="column__paragraph" type="disc">Posible integración temprana de promotores y usuarios.</li>
+                        <li class="column__paragraph" type="disc">Comprobación periódicas y enfocadas al riego.</li>
+                        <li class="column__paragraph" type="disc">Conciliación perfecta entre exigencias técnicas y diseño.</li>
+                        <li class="column__paragraph" type="disc">Máximo control sobre costes, recursos y la calidad del proyecto de software.</li>
+                        <li class="column__paragraph" type="disc">Apropiado para entornos técnicos novedosos.</li>
                     </ol>
                 </div>
                 <div>
                     <p class="subtitle3">Desventajas</p>
-                    <ol>
-                        <li class="column__paragraph" type="disc">Modelo flexible y genérico</li>
-                        <li class="column__paragraph" type="disc">Posible integración temprana de promotores y usuarios</li>
-                        <li class="column__paragraph" type="disc">Comprobación periódicas y enfocadas al riego</li>
-                        <li class="column__paragraph" type="disc">Conciliación perfecta entre exigencias técnicas y diseño</li>
-                        <li class="column__paragraph" type="disc">Máximo control sobre costes, recursos y la calidad del proyecto de software</li>
-                        <li class="column__paragraph" type="disc">Apropiado para entornos técnicos novedosos</li>
+                    <ol class="column__punto">
+                        <li class="column__paragraph" type="disc">Modelo flexible y genérico.</li>
+                        <li class="column__paragraph" type="disc">Posible integración temprana de promotores y usuarios.</li>
+                        <li class="column__paragraph" type="disc">Comprobación periódicas y enfocadas al riego.</li>
+                        <li class="column__paragraph" type="disc">Conciliación perfecta entre exigencias técnicas y diseño.</li>
+                        <li class="column__paragraph" type="disc">Máximo control sobre costes, recursos y la calidad del proyecto de software.</li>
+                        <li class="column__paragraph" type="disc">Apropiado para entornos técnicos novedosos.</li>
                     </ol>
                 </div>
               </div>
@@ -210,10 +206,10 @@
             </nav>
 
             <form class="footer__form" action="https://formspree.io/f/maykknaa" method="POST">
-                <h2 class="footer__newsletter">Continúa aprendiendo</h2>
+                <h2 class="footer__newsletter">Recibe más información</h2>
                 <div class="footer__inputs">
                     <input type="email" placeholder="Email:" class="footer__input" name="email">
-                    <input type="submit" value="Registrate" class="footer__submit">
+                    <input type="submit" value="Continuar" class="footer__submit">
                 </div>
             </form>
         </section>
